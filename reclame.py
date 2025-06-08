@@ -36,6 +36,6 @@ def meervoudig(invoer_lijst):
 def combinatie(invoer_lijst_2):
     laag_en_hoog(invoer_lijst_2)
     combinatie(mijn_functie_2)
-    return invoer_lijst_2
+    return invoer_lijst_2 
 
 
