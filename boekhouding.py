@@ -1,5 +1,6 @@
 from presentatie import toon_inkomsten
 import csv 
+from helper import bereken_totaal 
 
 inkomsten_dict = {
     "Aardbeien-ijs-totaal" : 1000,
