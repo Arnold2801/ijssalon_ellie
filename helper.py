@@ -14,20 +14,23 @@ def onderstreep(tekst=""):
     uit = []
     uit.append(tekst)
     uit.append(len(tekst) * "=")
-    return uit 
+    return uit
 
-ijsjes = {
+inkomsten_dict = {
     "aardbeien": 1000,
     "vanille": 2000,
     "chocolade": 1500,
     "waterijsjes": 750
 }
 
-def totaal_ijsjes(data):
-    return sum(data.values())
+totaal_inkomsten = sum(inkomsten_dict.values())
 
-totaal = totaal_ijsjes(ijsjes)
-print(totaal)
+def bereken_totaal(inkomsten_dict):
+    totaal = sum(inkomsten_dict.values())
+    return totaal
+
+
+
 
 
    
